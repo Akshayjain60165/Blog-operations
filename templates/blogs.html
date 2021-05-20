@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Blogs</title>
+</head>
+<body>
+      {% for i in p %} 
+      <h3>blog id {{i.blog_id}}</h3>
+      <h4>blog place {{i.place}}</h4>
+      <h5>blog title {{i.title}}</h5>
+      {% endfor %}
+</body>
+</html>
